@@ -1,7 +1,6 @@
 import tempfile
 import torch
 from torch import Tensor
-from torchaudio.backend.common import AudioMetaData
 from df import config
 from df.enhance import enhance, init_df, load_audio, save_audio
 from df.io import resample
